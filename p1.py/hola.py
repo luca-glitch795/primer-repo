@@ -1,2 +1,3 @@
 '''hola'''
-print('hola git')
+print('modi')
+print(22+2)

@@ -1,3 +1,7 @@
-'''hola'''
-print('modi')
-print(22+2)
+import os
+arch="Archivo.txt"
+if os.path.exists(arch):
+    os.remove(arch)
+    print(f'Archivo {arch} eliminado')
+else:
+    print(f'{arch} no existe')
